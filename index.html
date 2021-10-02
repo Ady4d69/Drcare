@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid d-flex justify-content-evenly">
+            <a href="#Home" class="navbar-brand" id="upper-navbar-brand">
+                Dr.<span class="text-primary">care</span>
+            </a>
+            <div class="d-none d-lg-flex">
+              <div class="d-flex justify-content-center align-items-center nav-card1">
+                <span class="me-3"><i class="fas fa-map"></i></span>
+                Address: 198 West 21th Street, Suite 721 New York NY 10016
+              </div>
+              <div class="d-flex justify-content-center align-items-center nav-card2">
+                <span class="me-3"><i class="fas fa-at"></i></span>
+                Email: youremail@email.com
+              </div>
+              <div class="d-flex justify-content-center align-items-center nav-card3">
+                <span class="me-3"><i class="fas fa-phone-alt"></i></span>
+                Phone: 8208300573
+              </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--
+      ABOUT
+      DOCTOR
+      DEPARTMENTS
+      PRICING
+      BLOG
+      CONTACT
+    -->
+    <div class="container-fluid d-flex justify-content-between align-items-start" id="nav2">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <button class="navbar-toggler border-0 m-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i><div class="d-inline menu">menu</div>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarText">
+          <ul class="navbar-nav">
+            <li class="nav-item activated">
+              <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">DOCTOR</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">DEPARTMENTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PRICING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <button class="btn btn-primary">Book An Appointment</button>
+    </div>
+  <section id="carousel">
+    <div class="container-fluid">
+      <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item d-flex flex-column justify-content-center active" id="img1" data-bs-interval="4000">
+              <h1 class="display-1 text-white"><span class="text-primary">We Care</span><br>About Your Health</h1>
+              <p class="text-white align-items-end">Your health is our top priority with comprehensive,<br>affordable medical</p>
+            </div>
+            <div class="carousel-item d-flex flex-column justify-content-center" id="img2" data-bs-interval="4000">
+              <h1 class="display-1 text-white"><span class="text-primary">Helping your</span><br>Stay Happy One</h1>
+              <p class="text-white align-items-end">Everyday we bring hope and smile to the patient we serve</p>
+            </div>
+          </div>
+        </div>      
+    </div>
+  </section>
+  <section id="home-features">
+    <div class="container">
+      <div class="row gap-2">
+        <div class="col-md-3">
+          <i class="fas fa-user-md m-2"></i>
+          <h2 class="my-2">Qualified Doctors</h2>
+          <p class="m-2">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+        </div>
+        <div class="col-md-3 col-alter">
+          <i class="fas fa-ambulance m-2"></i>
+          <h2 class="my-2">Emergency Care</h2>
+          <p class="m-2">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+        </div>
+        <div class="col-md-3">
+          <i class="fas fa-stethoscope m-2"></i>
+          <h2 class="my-2">Outdoor Checkup</h2>
+          <p class="m-2">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+        </div>
+        <div class="col-md-3 col-alter">
+          <i class="fas fa-business-time m-2"></i>
+          <h2 class="m-2">24 hours service</h2>
+          <p class="m-2">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+        </div>
+      </div>
+      <div class="row home-about">
+      </div>
+    </div>
+  </section>
+
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+</body>
